@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font: normal 95%/150% "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #efefef;
+  margin: 50px;
+  line-height: 1.5em;
+}
+
+#app {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  margin-top: 1em;
+  border: 1px solid #aaa;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  background-color: #ffffff !important;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 1em;
+  list-style: none;
+}
+
+li {
+  border-bottom: 1px dashed #aaa;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.todo-text {
+  width: 320px;
+}
+.close-btn {
+  padding: 3px 6px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+  float: right;
+  margin-top: 7px;
+  cursor: pointer;
+}
